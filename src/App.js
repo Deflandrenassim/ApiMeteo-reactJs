@@ -7,8 +7,15 @@ const api = {
 
 function App() {
   return (
-    <div className="App">
-      Hello bienvenu
+    <div className="app">
+     <div class="container">
+        <div class="container-search">
+            <input type="text" 
+              className="search-box"
+              placeholder="Quel temps fait il ?"
+              />
+        </div>
+     </div>
     
     </div>
     
