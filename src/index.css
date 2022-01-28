@@ -41,8 +41,19 @@ body {
   padding: 10px; /* padding du top container */
 
 }
-.date{
+.date {
   color: rgb(5, 2, 2);
   font-size: 35px;
+  text-shadow:1px 1px rgb(247, 196, 196)
+}
+
+.ville{
+  color: rgb(5, 2, 2);
+  font-size: 32px;
+  text-shadow:1px 1px rgb(247, 196, 196)
+}
+.temp{
+  color: rgb(5, 2, 2);
+  font-size: 30px;
   text-shadow:1px 1px rgb(247, 196, 196)
 }
