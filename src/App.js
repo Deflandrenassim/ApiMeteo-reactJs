@@ -15,6 +15,12 @@ function App() {
               placeholder="Quel temps fait il ?"
               />
         </div>
+          <div class="container-info">
+            <div class="date"> Date </div>
+            <div class="ville"> New york </div>
+            <div class="temps"> Temps celsius</div>
+          </div>
+        
      </div>
     
     </div>
