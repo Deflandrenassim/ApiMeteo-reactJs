@@ -41,3 +41,8 @@ body {
   padding: 10px; /* padding du top container */
 
 }
+.date{
+  color: rgb(5, 2, 2);
+  font-size: 35px;
+  text-shadow:1px 1px rgb(247, 196, 196)
+}

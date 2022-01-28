@@ -6,6 +6,18 @@ const api = {
 
 
 function App() {
+  const dateBuilder = (d) =>{ /* ma const dateBuilder */
+    let months = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août",
+    "Septembre", "Octobre", "Novembre", "Décembre"];
+    let days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
+
+    let day = days[d.getDay()];
+    let date = d.getDate();
+    let month = months[d.getMonth()]; 
+    let year = d.getFullYear();
+
+    return `${day}  ${date} ${month} ${year}`
+  }
   return (
     <div className="app">
      <div class="container">
@@ -16,7 +28,7 @@ function App() {
               />
         </div>
           <div class="container-info">
-            <div class="date"> Date </div>
+            <div class="date"> {dateBuilder(new Date())} </div>
             <div class="ville"> New york </div>
             <div class="temps"> Temps celsius</div>
           </div>
