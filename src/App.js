@@ -17,7 +17,7 @@ function App() {
         .then(result => {
           setWeather(result)
           setQuery('');
-          console.log(result);
+          console.log(weather);
 
         });
     }
@@ -38,6 +38,9 @@ function App() {
   return (
     <div className="app">
       <main>
+        <h1>
+          Hello world, Bienvenue sur notre application météo 
+        </h1>
         <div className="container">
           <div className="container-search">
             <input type="text"
@@ -53,7 +56,8 @@ function App() {
           <div className="container-info">
               <div className="date"> {dateBuilder(new Date())} </div>
               <div className="ville"> {weather.name}, {weather.sys.country}</div>
-              <div className="temp"> {Math.Round(weather.main.temp)}</div>
+              <div className="temp"> {Math.round(weather.main.temp)} °D </div>
+
           </div>
           </div>
           ) : ('') }

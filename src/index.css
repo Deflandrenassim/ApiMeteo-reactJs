@@ -10,7 +10,11 @@ body {
 .app{
   background-image: url('./assets/beau.png');
   background-size: cover;
-
+  background-position: bottom;
+  transition: 0.4 ease;
+}
+.app .warm{
+  background-image: url('./assets/mauvais.png');
 }
 .container{ 
   min-height: 100vh;
