@@ -39,8 +39,20 @@ function App() {
     <div className="app">
       <main>
         <h1>
-          Hello world, Bienvenue sur notre application météo 
+          Hello world
         </h1>
+        <h2>
+          Bienvenue sur mon application méteo 
+        </h2>
+
+      <div class="flex-pacman">
+        <div class="pacman">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+
+      </div>
         <div className="container">
           <div className="container-search">
             <input type="text"
